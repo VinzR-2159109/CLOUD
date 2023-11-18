@@ -9,22 +9,25 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('training_plans', function (Blueprint $table) {
+        Schema::create('nutrition_entries', function (Blueprint $table) {
             $table->id();
-            $table->string("title");
-            $table->text("description");
-            $table->integer("duration_in_weeks");
+            $table->string('food_name');
+            $table->integer('calories');
+            $table->integer('protein');
+            $table->integer('carbohydrates');
+            $table->integer('fat');
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('training_plans');
+        Schema::dropIfExists('nutrition_entries');
     }
 };
