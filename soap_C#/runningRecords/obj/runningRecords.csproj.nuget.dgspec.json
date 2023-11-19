@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\soap_C#\\runningRecords\\runningRecords.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\soap_C#\\runningRecords\\runningRecords.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\soap_C#\\runningRecords\\runningRecords.csproj",
+        "projectName": "runningRecords",
+        "projectPath": "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\soap_C#\\runningRecords\\runningRecords.csproj",
+        "packagesPath": "C:\\Users\\vinzr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\soap_C#\\runningRecords\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vinzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.39, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

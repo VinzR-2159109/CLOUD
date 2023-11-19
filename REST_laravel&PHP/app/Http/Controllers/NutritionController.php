@@ -7,7 +7,6 @@ use App\Models\NutritionEntry;
 
 class NutritionController extends Controller
 {
-    
 
     public function index()
     {
