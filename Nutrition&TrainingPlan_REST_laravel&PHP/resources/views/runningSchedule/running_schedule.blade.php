@@ -1,5 +1,3 @@
-<!-- resources/views/running_schedule.blade.php -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

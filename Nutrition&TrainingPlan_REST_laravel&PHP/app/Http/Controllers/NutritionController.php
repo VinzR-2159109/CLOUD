@@ -59,7 +59,7 @@ class NutritionController extends Controller
     
     public function showSearchForm()
     {
-        return view('nutrition.search-form');
+        return view('nutrition/search-form');
     }
 
     public function showByFoodName(Request $request)
@@ -71,6 +71,6 @@ class NutritionController extends Controller
         $foodName = $request->input('food_name');
         $entry = NutritionEntry::where('food_name', $foodName)->first();
 
-        return view('nutrition.search', ['entry' => $entry]);
+        return view('nutrition/search', ['entry' => $entry]);
     }
 }

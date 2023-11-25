@@ -24,12 +24,12 @@ class TrainingPlanController extends Controller
         $trainingPlan = new TrainingPlan();
         $schedule = $trainingPlan->genRunningScheduleOnFitnessLevel($fitnessLevel);
 
-        return view('running_schedule', compact('fitnessLevel', 'schedule'));
+        return view('runningSchedule/running_schedule', compact('fitnessLevel', 'schedule'));
     }
 
     public function showSelectFitnessLevel()
     {
-        return view('select_fitness_level');
+        return view('runningSchedule/select_fitness_level');
     }
     
 }

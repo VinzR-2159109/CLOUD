@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StartController;
 use App\Http\Controllers\TrainingPlanController;
 use App\Http\Controllers\NutritionController;
 /*
@@ -14,9 +15,7 @@ use App\Http\Controllers\NutritionController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [StartController::class, 'index'])->name('start');
 
 Route::get('/training-plans/{fitnesLevel}', [TrainingPlanController::class, 'genRunningScheduleOnFitnessLevel']);
 Route::get('/running-schedule', [TrainingPlanController::class, 'showRunningSchedule']);
