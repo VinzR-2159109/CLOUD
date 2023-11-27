@@ -31,6 +31,12 @@
             <p>Track and connect with fellow runners</p>
             <p>(GraphQL)</p>
         </div>
+
+        <div class="tile safety-alert" onclick="window.location.href='/websocket';">
+            <h2>Safety Alert</h2>
+            <p>Activate safety alerts during your run</p>
+            <p>(WebSocket)</p>
+        </div>
             
     </div>
 </body>

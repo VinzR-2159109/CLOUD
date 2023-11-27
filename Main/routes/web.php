@@ -5,6 +5,7 @@ use App\Http\Controllers\StartController;
 use App\Http\Controllers\NutritionController;
 use App\Http\Controllers\RunningScheduleController;
 use App\Http\Controllers\SocialRunningController;
+use App\Http\Controllers\SafetyAlertController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,6 @@ Route::get('/search-nutrition-form', [NutritionController::class, 'showSearchFor
 Route::post('/search-nutrition', [NutritionController::class, 'showByFoodName']);
 
 Route::get('/social-running-tracker', [SocialRunningController::class, 'view']);
+
+Route::get('/websocket', [SafetyAlertController::class, 'view']);
+Route::post('/activate-safety-alert', [SafetyAlertController::class, 'activateSafetyAlert']);
