@@ -66,4 +66,5 @@ class Query(ObjectType):
         
 schema = Schema(query=Query, mutation=Mutation)
 myWebApp = Flask("My App")
+
 myWebApp.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
