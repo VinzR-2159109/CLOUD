@@ -1,32 +1,27 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\StartController;
-use App\Http\Controllers\NutritionController;
-use App\Http\Controllers\RunningScheduleController;
-use App\Http\Controllers\SocialRunningController;
-use App\Http\Controllers\SafetyAlertController;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
 Route::get('/', [StartController::class, 'index'])->name('start');
 
-Route::get('/make-running-schedule-view', [RunningScheduleController::class, 'view']);
+use App\Http\Controllers\RunningScheduleController;
+Route::get('/make-running-schedule-view', [RunningScheduleController::class, 'index']);
 Route::post('/make-running-schedule', [RunningScheduleController::class, 'makeRunningSchedule']);
 
+use App\Http\Controllers\NutritionController;
 Route::get('/search-nutrition-form', [NutritionController::class, 'showSearchForm']);
 Route::post('/search-nutrition', [NutritionController::class, 'showByFoodName']);
 
-Route::get('/social-running-tracker', [SocialRunningController::class, 'view']);
+use App\Http\Controllers\RunningHistoryController;
+Route::get('/running-history', [RunningHistoryController::class, 'index']);
 
-Route::get('/websocket', [SafetyAlertController::class, 'view']);
+use App\Http\Controllers\SocialRunningController;
+Route::get('/social-running-tracker', [SocialRunningController::class, 'index']);
+
+use App\Http\Controllers\SafetyAlertController;
+Route::get('/websocket', [SafetyAlertController::class, 'index']);
 Route::post('/activate-safety-alert', [SafetyAlertController::class, 'activateSafetyAlert']);
+
+use App\Http\Controllers\SensorController;
+Route::get('/sensors', [SensorController::class, 'index']);

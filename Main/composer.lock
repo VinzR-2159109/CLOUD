@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fc29cb7365c0d5e6239f61143d3ee92",
+    "content-hash": "38f3dbd87cc463b2584feb92f9b82ddf",
     "packages": [
+        {
+            "name": "artisaninweb/laravel-soap",
+            "version": "0.2.5.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artisaninweb/laravel-soap.git",
+                "reference": "a25956372fdc095a2206a5cacf76d12b1b11c084"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artisaninweb/laravel-soap/zipball/a25956372fdc095a2206a5cacf76d12b1b11c084",
+                "reference": "a25956372fdc095a2206a5cacf76d12b1b11c084",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Artisaninweb\\SoapWrapper": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael van de Rijt",
+                    "email": "me@mvdrijt.com"
+                }
+            ],
+            "description": "A SoapClient wrapper integration for Laravel",
+            "keywords": [
+                "client",
+                "laravel",
+                "soap",
+                "wrapper"
+            ],
+            "support": {
+                "issues": "https://github.com/artisaninweb/laravel-soap/issues",
+                "source": "https://github.com/artisaninweb/laravel-soap/tree/master"
+            },
+            "time": "2015-06-17T11:22:29+00:00"
+        },
         {
             "name": "beyondcode/laravel-websockets",
             "version": "1.14.1",

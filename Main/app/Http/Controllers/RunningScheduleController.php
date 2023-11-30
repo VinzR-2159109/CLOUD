@@ -17,7 +17,7 @@ class RunningScheduleController extends Controller
         return response()->json(['message' => 'Running schedule is gemaakt!', 'schedule' => $schedule]);
     }
 
-    public function view(){
+    public function index(){
         return view('runningSchedule/makeRunningSchedule');
     }
 }

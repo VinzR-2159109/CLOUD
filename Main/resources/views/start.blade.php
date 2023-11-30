@@ -26,6 +26,12 @@
             <p>(Fetch)</p>
         </div>
 
+        <div class="tile history" onclick="window.location.href='/running-history';">
+            <h2>Running History</h2>
+            <p>view Running activities</p>
+            <p>(SOAP)</p>
+        </div>
+        
         <div class="tile graphql" onclick="window.location.href='/social-running-tracker';">
             <h2>Social Running Tracker</h2>
             <p>Track and connect with fellow runners</p>
@@ -37,7 +43,13 @@
             <p>Activate safety alerts during your run</p>
             <p>(WebSocket)</p>
         </div>
-            
+        
+        <div class="tile sensors" onclick="window.location.href='/sensors';">
+            <h2>Running Sensors</h2>
+            <p>Overview of multiple running sensors</p>
+            <p>(MQTT)</p>
+        </div>
+
     </div>
 </body>
 </html>

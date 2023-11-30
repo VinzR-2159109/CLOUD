@@ -11,6 +11,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "@urql/core": "^4.2.0"
+        "@urql/core": "^4.2.0",
+        "mqtt": "^5.3.1"
     }
 }

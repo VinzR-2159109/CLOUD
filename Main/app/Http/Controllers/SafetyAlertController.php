@@ -7,7 +7,7 @@ use BeyondCode\LaravelWebSockets\Facades\WebSocketsRouter;
 
 class SafetyAlertController extends Controller
 {
-    public function view()
+    public function index()
     {
         return view('safetyAlert.safetyAlert');
     }
