@@ -21,14 +21,46 @@ class RunningHistoryController extends Controller
         $durations = $this->getAllDurations($userId);
         $paces = $this->getAllPaces($userId);
         $calories = $this->getAllCaloriesBurned($userId);
+        $averagePace = $this->calculateAveragePace($userId);
+        
+        //Bron: https://stackoverflow.com/questions/18576762/php-stdclass-to-array
+        $distancesArray = json_decode(json_encode($distances), true);
+        $durationsArray = json_decode(json_encode($durations), true);
+        $pacesArray = json_decode(json_encode($paces), true);
+        $caloriesArray = json_decode(json_encode($calories), true);
 
-        return view('runningHistory.runningHistoryResponse', [
-            'distances' => $distances,
-            'durations' => $durations,
-            'paces' => $paces,
-            'calories' => $calories,
-            'averagePace' => null,
-        ]);
+        if (isset($distancesArray['double'])) {
+
+            $totalDistance = array_sum($distancesArray['double']);
+            $totalDuration = array_sum($durationsArray['double']);
+            $totalCalories = array_sum($caloriesArray['int']);
+
+            return view('runningHistory.runningHistoryResponse', [
+                'distances' => $distancesArray['double'],
+                'durations' => $durationsArray['double'],
+                'paces' => $pacesArray['double'],
+                'calories' => $caloriesArray['int'],
+                'averagePace' => $averagePace,
+                'totalDistance' => $totalDistance,
+                'totalDuration' => $totalDuration,
+                'totalCalories' => $totalCalories,
+            ]);
+
+        } else {
+            print("No data found for this user.");
+        }
+    }
+
+    public function addRunningActivity(Request $request)
+    {
+        $userId = $request->input('userId');
+        $distance = $request->input('distance');
+        $time = $request->input('time');
+
+        $soapClient = Soap::to('http://localhost:5252/Service.asmx');
+        $soapClient->AddRunningActivity(['userId' => $userId, 'distanceInKm' => $distance, 'timeInMinutes' => $time]);
+
+        return view('runningHistory.runningHistoryAddActivitySuccessful', ['userID' => $userId]);
     }
     
     private function getAllDistances($userId)
@@ -55,37 +87,9 @@ class RunningHistoryController extends Controller
         return $soapClient->GetAllCaloriesBurned(['userId' => $userId])->response->GetAllCaloriesBurnedResult;
     }
 
-    public function calculateAveragePace(Request $request)
+    public function calculateAveragePace($userId)
     {
-        $userId = $request->input('userId');
         $soapClient = Soap::to('http://localhost:5252/Service.asmx');
-        $averagePace = $soapClient->CalculateAveragePace(['userId' => $userId]);
-
-        return view('runningHistory.runningHistoryResponse', [
-            'distances' => null,
-            'durations' => null,
-            'paces' => null,
-            'calories' => null,
-            'averagePace' => $averagePace->response->CalculateAveragePaceResult,
-        ]);
-    }
-
-    public function addRunningActivity(Request $request)
-    {
-        $userId = $request->input('userId');
-        $distance = $request->input('distance');
-        $time = $request->input('time');
-
-        $soapClient = Soap::to('http://localhost:5252/Service.asmx');
-        $soapClient->AddRunningActivity(['userId' => $userId, 'distanceInKm' => $distance, 'timeInMinutes' => $time]);
-
-        return view('runningHistory.runningHistoryResponse', [
-            'distances' => null,
-            'durations' => null,
-            'paces' => null,
-            'calories' => null,
-            'averagePace' => null,
-            'successMessage' => 'Running activity added successfully!',
-        ]);
+        return $soapClient->CalculateAveragePace(['userId' => $userId])->response->CalculateAveragePaceResult;
     }
 }
