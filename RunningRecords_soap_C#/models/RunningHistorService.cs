@@ -6,27 +6,16 @@ namespace runningRecords.Models;
 public class RunningHistoryService : IRunningHistoryService
 {
     private static Dictionary<string, List<RunActivity>> userRunActivities = new();
-    private readonly Dictionary<string, double> users = new();
-
-    public List<RunActivity> GetRunningHistory(string userId)
-    {
-        if (userRunActivities.ContainsKey(userId))
-        {
-            return userRunActivities[userId];
-        }
-
-        return new List<RunActivity>();
-    }
 
     public double CalculateAveragePace(string userId)
     {
         if (userRunActivities.ContainsKey(userId) && userRunActivities[userId].Count > 0)
         {
             var totalPace = userRunActivities[userId].Select(activity => activity.Pace).Sum();
-            return totalPace / userRunActivities[userId].Count;
+            return Math.Round(totalPace / userRunActivities[userId].Count, 2);
         }
 
-        return 0.0;
+        return -1;
     }
 
     public void AddRunningActivity(string userId, double distanceInKm, double timeInMinutes)
@@ -40,7 +29,7 @@ public class RunningHistoryService : IRunningHistoryService
         var activity = new RunActivity
         {
             DistanceInKm = distanceInKm,
-            Duration = TimeSpan.FromMinutes(timeInMinutes),
+            Duration = timeInMinutes,
             Pace = pace,
             CaloriesBurned = CalculateCaloriesBurned(timeInMinutes, userId)
         };
@@ -51,65 +40,56 @@ public class RunningHistoryService : IRunningHistoryService
     private int CalculateCaloriesBurned(double timeInMinutes, string userId)
     {
         const int MET = 7;
-        double weightKg = users.ContainsKey(userId) ? users[userId] : 76;
+        double weightKg = 76;
 
         double timeInHours = timeInMinutes / 60.0;
         double caloriesBurned = MET * weightKg * timeInHours;
 
         return (int)caloriesBurned;
     }
-
-    private Dictionary<string, double> AddSampleUsers(int numberOfUsers = 5)
+   
+    public List<double> GetAllDistances(string userId)
     {
-        Random random = new();
-
-        for (int i = 0; i < numberOfUsers; i++)
+        if (userRunActivities.ContainsKey(userId))
         {
-            string userId = random.Next(111, 1000).ToString();
-            double weight = Math.Round(random.NextDouble() * 20 + 60.0,1);
-
-            users[userId] = weight;;
+            return userRunActivities[userId].Select(activity => activity.DistanceInKm).ToList();
         }
 
-        return users;
+        return new List<double>();
     }
 
-    private static void AddSampleActivities(string userId = "123", int numberOfActivities = 25)
+    public List<double> GetAllDurations(string userId)
     {
-        if (!userRunActivities.ContainsKey(userId))
+        if (userRunActivities.ContainsKey(userId))
         {
-            userRunActivities[userId] = new List<RunActivity>();
-
-            Random random = new();
-
-            for (int i = 0; i < numberOfActivities; i++)
-            {
-                double distance = Math.Round(random.NextDouble() * 10 + 3.0, 3);
-                TimeSpan duration = TimeSpan.FromMinutes(random.Next(20, 120));
-                double pace = Math.Round(duration.TotalMinutes / distance, 2);
-                int caloriesBurned = random.Next(200, 800);
-
-                var activity = new RunActivity
-                {
-                    DistanceInKm = distance,
-                    Duration = duration,
-                    Pace = pace,
-                    CaloriesBurned = caloriesBurned
-                };
-
-                userRunActivities[userId].Add(activity);
-            }
+            return userRunActivities[userId].Select(activity => activity.Duration).ToList();
         }
+
+        return new List<double>();
     }
 
-    public Dictionary<string, double> AddSamples()
+    public List<double> GetAllPaces(string userId)
     {
-        Dictionary<string, double> sampleUsers = AddSampleUsers(5);
-
-        foreach (var user in sampleUsers)
+        if (userRunActivities.ContainsKey(userId))
         {
-            AddSampleActivities(user.Key, 10);
+            return userRunActivities[userId].Select(activity => activity.Pace).ToList();
         }
-        return sampleUsers;
+
+        return new List<double>();
+    }
+
+    public List<int> GetAllCaloriesBurned(string userId)
+    {
+        if (userRunActivities.ContainsKey(userId))
+        {
+            return userRunActivities[userId].Select(activity => activity.CaloriesBurned).ToList();
+        }
+
+        return new List<int>();
+    }
+
+    public string Test()
+    {
+        return "Dit is een test";
     }
 }
