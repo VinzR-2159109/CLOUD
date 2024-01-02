@@ -15,6 +15,10 @@ Route::post('/search-nutrition', [NutritionController::class, 'showByFoodName'])
 
 use App\Http\Controllers\RunningHistoryController;
 Route::get('/running-history', [RunningHistoryController::class, 'index']);
+Route::post('/get-running-history', [RunningHistoryController::class, 'getRunningHistory']);
+Route::post('/calculate-average-pace', [RunningHistoryController::class, 'calculateAveragePace']);
+Route::post('/add-running-activity', [RunningHistoryController::class, 'addRunningActivity']);
+Route::post('/add-samples', [RunningHistoryController::class, 'addSamples']);
 
 use App\Http\Controllers\SocialRunningController;
 Route::get('/social-running-tracker', [SocialRunningController::class, 'index']);
