@@ -50,6 +50,12 @@
             <p>(MQTT)</p>
         </div>
 
+        <div class="tile weather" onclick="window.location.href='/weather-service';">
+            <h2>Weather Service</h2>
+            <p>CHeck your local weather conditions</p>
+            <p>(gRPC)</p>
+        </div>
+
     </div>
 </body>
 </html>

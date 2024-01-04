@@ -67,7 +67,6 @@ class NutritionController extends Controller
         $request->validate([
             'food_name' => 'required|string',
         ]);
-
         $foodName = $request->input('food_name');
         $entry = NutritionEntry::where('food_name', $foodName)->first();
 

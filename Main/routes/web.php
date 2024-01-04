@@ -29,3 +29,7 @@ Route::post('/activate-safety-alert', [SafetyAlertController::class, 'activateSa
 
 use App\Http\Controllers\SensorController;
 Route::get('/sensors', [SensorController::class, 'index']);
+
+use App\Http\Controllers\WeatherServiceController;
+Route::get('/weather-service', [WeatherServiceController::class, 'index']);
+Route::post('/weather-service-response', [WeatherServiceController::class, 'response']);
