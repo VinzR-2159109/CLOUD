@@ -1,0 +1,69 @@
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\appsettings.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\weatherService.exe
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\weatherService.deps.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\weatherService.runtimeconfig.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\weatherService.pdb
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.csproj.AssemblyReference.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.AssemblyInfoInputs.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.AssemblyInfo.cs
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.csproj.CoreCompileInputs.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.weatherService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.build.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\scopedcss\bundle\weatherService.styles.css
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.csproj.CopyComplete
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\refint\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.pdb
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\weatherService.genruntimeconfig.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C# - kopie\weatherService\obj\Debug\net7.0\ref\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\appsettings.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\weatherService.exe
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\weatherService.deps.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\weatherService.runtimeconfig.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\weatherService.pdb
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.csproj.AssemblyReference.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.AssemblyInfoInputs.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.AssemblyInfo.cs
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.csproj.CoreCompileInputs.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.weatherService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.build.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.weatherService.props
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\scopedcss\bundle\weatherService.styles.css
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.csproj.CopyComplete
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\refint\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.pdb
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\weatherService.genruntimeconfig.cache
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\obj\Debug\net7.0\ref\weatherService.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\WeatherService_gRPC_C#\weatherService\bin\Debug\net7.0\Grpc.AspNetCore.Web.dll

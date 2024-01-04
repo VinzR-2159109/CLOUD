@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7/zEccUrydPklKSJJ6H8QSvCXVnMnWbcDlPY8MlcHmphLgyGKUoEoIvPGU+QSdGG3jN/AJbPWbKqhPCHztea2w==",
+  "dgSpecHash": "dNLTu227myIZm26Cwe1h4/t3xUR7pEzrc6vLkh+7SooH+NF7PtGHXQOZ4P3htha+62UiRecC17ineSwWFvDbRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\RunningRecords_soap_C#\\runningRecords.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\vinzr\\.nuget\\packages\\soapcore\\1.1.0.39\\soapcore.1.1.0.39.nupkg.sha512",
     "C:\\Users\\vinzr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\vinzr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

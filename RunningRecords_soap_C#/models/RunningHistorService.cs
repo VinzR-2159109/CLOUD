@@ -1,6 +1,6 @@
 using System;
 using Models;
-
+using Newtonsoft.Json;
 namespace runningRecords.Models;
 
 public class RunningHistoryService : IRunningHistoryService
@@ -31,13 +31,13 @@ public class RunningHistoryService : IRunningHistoryService
             DistanceInKm = distanceInKm,
             Duration = timeInMinutes,
             Pace = pace,
-            CaloriesBurned = CalculateCaloriesBurned(timeInMinutes, userId)
+            CaloriesBurned = CalculateCaloriesBurned(timeInMinutes)
         };
 
         userRunActivities[userId].Add(activity);
     }   
 
-    private int CalculateCaloriesBurned(double timeInMinutes, string userId)
+    private int CalculateCaloriesBurned(double timeInMinutes)
     {
         const int MET = 7;
         double weightKg = 76;
@@ -48,6 +48,19 @@ public class RunningHistoryService : IRunningHistoryService
         return (int)caloriesBurned;
     }
    
+ 
+   /* Dit wilt maar niet werken => oplossing: alles met Primitive data types doen
+    public string GetActivities(string userId)
+    {
+        if (userRunActivities.ContainsKey(userId))
+        {
+            return JsonConvert.SerializeObject(userRunActivities[userId]);
+        }
+    
+        return "[]";
+    }
+    */
+
     public List<double> GetAllDistances(string userId)
     {
         if (userRunActivities.ContainsKey(userId))
@@ -86,10 +99,5 @@ public class RunningHistoryService : IRunningHistoryService
         }
 
         return new List<int>();
-    }
-
-    public string Test()
-    {
-        return "Dit is een test";
     }
 }

@@ -53,18 +53,29 @@ class Mutation(ObjectType):
     create_user = CreateUser.Field()
 
 class Query(ObjectType):
-    get_user_by_id = Field(User, id=ID(required=True))
-    get_user_by_username = Field(User, username=String(required=True))
+    getUserById = Field(User, id=ID(required=True))
+    getUserByUsername = Field(User, username=String(required=True))
+    getRunningGroupByName = Field(RunningGroup, runningGroupName=String(required=True))
 
-    def resolve_get_user_by_id(parent, info, id):
+    def resolve_getUserById(parent, info, id):
         users = dfUsers[dfUsers["id"] == int(id)]
         return users.iloc[0]
 
-    def resolve_get_user_by_username(parent, info, username):
+    def resolve_getUserByUsername(parent, info, username):
         users = dfUsers[dfUsers["userName"] == username]
         return users.iloc[0]
+    
+    def resolve_getRunningGroupByName(parent, info, runningGroupName):
+        runningGroups = dfRunningGroups[dfRunningGroups["runningGroupName"] == runningGroupName]
+        return runningGroups.iloc[0]
         
 schema = Schema(query=Query, mutation=Mutation)
 myWebApp = Flask("My App")
 
 myWebApp.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
+
+from flask_cors import CORS
+CORS(myWebApp)
+
+if __name__ == '__main__':
+    myWebApp.run(host='0.0.0.0')

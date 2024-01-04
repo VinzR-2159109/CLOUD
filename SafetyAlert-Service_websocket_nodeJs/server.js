@@ -75,4 +75,6 @@ function sendHelp(message) {
       client.send(message + JSON.stringify(lastKnownLocation));
     }
   });
+
+  console.log(message + JSON.stringify(lastKnownLocation));
 }

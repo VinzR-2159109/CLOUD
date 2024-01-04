@@ -92,3 +92,4 @@ C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServic
 C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\RunningRecords_soap_C#\obj\Debug\net7.0\runningRecords.pdb
 C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\RunningRecords_soap_C#\obj\Debug\net7.0\runningRecords.genruntimeconfig.cache
 C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\RunningRecords_soap_C#\obj\Debug\net7.0\ref\runningRecords.dll
+C:\Users\vinzr\OneDrive\UHasselt\3deBachelor23-24\CLOUD\Taak\CLOUD_runningServices\RunningRecords_soap_C#\bin\Debug\net7.0\Newtonsoft.Json.dll

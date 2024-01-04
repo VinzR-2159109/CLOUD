@@ -20,9 +20,6 @@ public interface IRunningHistoryService
     
     [OperationContract]
     double CalculateAveragePace(string userId);
-
-    [OperationContract]
-    string Test();
     
     [OperationContract]
     void AddRunningActivity(string userId, double distanceInKm, double timeInMinutes);

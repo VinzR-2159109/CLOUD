@@ -1,0 +1,24 @@
+syntax = "proto3";
+option csharp_namespace = "weatherService";
+package weather;
+
+service Weather {
+  rpc getWeatherAtLocation (WeatherRequest) returns (WeatherResponse);
+}
+
+message WeatherRequest {
+    Location location = 1;
+}
+
+message Location {
+    float latitude = 1;
+    float longitude = 2;
+}
+  
+message WeatherResponse {
+    string condition = 1;
+    float temperature = 2;
+    float humidity = 3;
+    float windSpeed = 4;
+    float precipitation = 5;
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "829OidOPiXI0eKn8iRnWXJnkHcPOpxPGCfrLxshxCs0i5lanWhds6ctmUmiVPFMmGU8Q+1dRuf5FP3qFjgEtVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinzr\\OneDrive\\UHasselt\\3deBachelor23-24\\CLOUD\\Taak\\CLOUD_runningServices\\WeatherService_gRPC_C#\\weatherService\\weatherService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinzr\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.aspnetcore\\2.49.0\\grpc.aspnetcore.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.aspnetcore.server\\2.49.0\\grpc.aspnetcore.server.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.49.0\\grpc.aspnetcore.server.clientfactory.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.aspnetcore.web\\2.60.0\\grpc.aspnetcore.web.2.60.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.core.api\\2.49.0\\grpc.core.api.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.net.client\\2.49.0\\grpc.net.client.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.net.clientfactory\\2.49.0\\grpc.net.clientfactory.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\grpc.tools\\2.49.0\\grpc.tools.2.49.0.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.3\\microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.3\\microsoft.extensions.dependencyinjection.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.3\\microsoft.extensions.dependencyinjection.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.http\\3.0.3\\microsoft.extensions.http.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.logging\\3.0.3\\microsoft.extensions.logging.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\vinzr\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
