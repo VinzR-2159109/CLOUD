@@ -28,24 +28,36 @@ class RunningHistoryController extends Controller
         $durationsArray = json_decode(json_encode($durations), true);
         $pacesArray = json_decode(json_encode($paces), true);
         $caloriesArray = json_decode(json_encode($calories), true);
-
+        
+        //print_r($distancesArray);
         if (isset($distancesArray['double'])) {
+            if (is_array($distancesArray['double'])) {
+                $totalDistance = array_sum($distancesArray['double']);
+                $totalDuration = array_sum($durationsArray['double']);
+                $totalCalories = array_sum($caloriesArray['int']);
 
-            $totalDistance = array_sum($distancesArray['double']);
-            $totalDuration = array_sum($durationsArray['double']);
-            $totalCalories = array_sum($caloriesArray['int']);
-
-            return view('runningHistory.runningHistoryResponse', [
-                'distances' => $distancesArray['double'],
-                'durations' => $durationsArray['double'],
-                'paces' => $pacesArray['double'],
-                'calories' => $caloriesArray['int'],
-                'averagePace' => $averagePace,
-                'totalDistance' => $totalDistance,
-                'totalDuration' => $totalDuration,
-                'totalCalories' => $totalCalories,
-            ]);
-
+                return view('runningHistory.runningHistoryResponse', [
+                    'distances' => $distancesArray['double'],
+                    'durations' => $durationsArray['double'],
+                    'paces' => $pacesArray['double'],
+                    'calories' => $caloriesArray['int'],
+                    'averagePace' => $averagePace,
+                    'totalDistance' => $totalDistance,
+                    'totalDuration' => $totalDuration,
+                    'totalCalories' => $totalCalories,
+                ]);
+            } else {
+                return view('runningHistory.runningHistoryResponse', [
+                    'distances' => $distancesArray,
+                    'durations' => $durationsArray,
+                    'paces' => $pacesArray,
+                    'calories' => $caloriesArray,
+                    'averagePace' => $averagePace,
+                    'totalDistance' => $distancesArray['double'],
+                    'totalDuration' => $durationsArray['double'],
+                    'totalCalories' => $caloriesArray['int'],
+                ]);
+            }
         } else {
             print("No data found for this user.");
         }

@@ -21,7 +21,7 @@
         var latitude = @json($latitude);
         var longitude = @json($longitude);
 
-        client.getWeatherAtLocation(latitude, longitude, (err, response) => {
+        client.getWeatherAtLocation(longitude, latitude, (err, response) => {
             if (err) {
                 console.log(err);
             } else {
