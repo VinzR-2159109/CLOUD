@@ -57,7 +57,7 @@ class RunningSchedule extends Model
         $fartlekDistances = [];
 
         for ($i = 0; $i < $intervals; $i++) {
-            $distance = max($dailyDistance + mt_rand(-100, 100) / 100, 0);
+            $distance = round(max($dailyDistance + mt_rand(-100, 100) / 100, 0),0);
             $fartlekDistances[] = $distance;
         }
 

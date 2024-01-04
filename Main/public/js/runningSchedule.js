@@ -17,10 +17,10 @@ document.getElementById('makeScheduleBtn').addEventListener('click', function() 
             <p>Schedule:</p>
             <ul>
                 ${Object.entries(data.schedule).map(([day, details]) => `
-                    <li>
-                        ${day}: ${details.activity === 'rest' ? 'Rest' : 'Fartlek'} - 
-                        ${details.activity === 'rest' ? '' : details.distance || details.distances.join(', ')}
-                    </li>
+                <li>
+                    ${day}: ${details.activity === 'rest' ? 'Rest' : 'Fartlek'} - 
+                    ${details.activity === 'rest' ? '' : (details.distance || details.distances.join(', ')) + ' kilometers'}
+                </li>
                 `).join('')}
             </ul>
         `;
