@@ -1,13 +1,15 @@
+@include('header')
 <!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/nutrition.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <title>Resultaten</title>
 </head>
 <body>
-
+<div>
 @if ($entry)
     <h1>{{ $entry->food_name }}</h1>
     <p>Calories: {{ $entry->calories }}</p>
@@ -17,6 +19,7 @@
 @else
     <p>Geen resultaten gevonden voor '{{ request('food_name') }}'.</p>
 @endif
-
+</div>
 </body>
 </html>
+@include('footer')

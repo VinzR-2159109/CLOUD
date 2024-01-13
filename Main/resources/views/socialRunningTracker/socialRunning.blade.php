@@ -1,10 +1,14 @@
+@include ('header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+
     <title>User Search</title>
-    <link rel="stylesheet" type="text/css" href="css/socialRunning.css">
 </head>
 <body>
 
@@ -29,6 +33,7 @@
   </form>
 
   <div id="result"></div>
+  
   <script type="importmap">{"imports": {"@urql/core":"https://cdn.jsdelivr.net/npm/@urql/core@4.2.0/+esm"}}</script>
   <script type="module">
     import { Client, createRequest, cacheExchange, fetchExchange, gql } from '@urql/core';
@@ -159,3 +164,4 @@
 
 </body>
 </html>
+@include('footer')

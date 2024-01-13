@@ -1,3 +1,5 @@
+@include('header')
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,24 +13,8 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
     <script src="{{ asset('js/weatherMap.js') }}"></script>
 
-    <style>
-        body { 
-            margin: 0; 
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4; 
-        }
-        button {
-            background-color: #3498db;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        #map { position: absolute; top: 40px; bottom: 0; width: 100%;}
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/form.css') }}">
+    <style>#map { position: absolute; top: 350px; bottom: 0; width: 100%;}</style>
 
     <title>Weather Service</title>
 </head>
@@ -46,3 +32,4 @@
     <div id='map'></div>
 </body>
 </html>
+@include('footer')

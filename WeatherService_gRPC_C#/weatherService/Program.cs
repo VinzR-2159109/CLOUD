@@ -11,6 +11,7 @@ builder.Services.AddCors(o => o.AddPolicy("AllowAll", builder => {
 }));
 
 var app = builder.Build();
+
 app.UseCors();
 app.UseGrpcWeb();
 app.MapGrpcService<WeatherServiceImpl>().EnableGrpcWeb().RequireCors("AllowAll");

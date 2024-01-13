@@ -1,0 +1,10 @@
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+canvas {
+    max-width: 900px;
+    margin-bottom: 20px;
+}

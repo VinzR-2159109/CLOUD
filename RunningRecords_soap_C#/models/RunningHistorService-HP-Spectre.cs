@@ -1,6 +1,6 @@
 using System;
 using Models;
-
+using Newtonsoft.Json;
 namespace runningRecords.Models;
 
 public class RunningHistoryService : IRunningHistoryService
@@ -48,6 +48,19 @@ public class RunningHistoryService : IRunningHistoryService
         return (int)caloriesBurned;
     }
    
+ 
+   /* Dit wilt maar niet werken => oplossing: alles met Primitive data types doen
+    public string GetActivities(string userId)
+    {
+        if (userRunActivities.ContainsKey(userId))
+        {
+            return JsonConvert.SerializeObject(userRunActivities[userId]);
+        }
+    
+        return "[]";
+    }
+    */
+
     public List<double> GetAllDistances(string userId)
     {
         if (userRunActivities.ContainsKey(userId))

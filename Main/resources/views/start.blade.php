@@ -1,5 +1,4 @@
-<!-- resources/views/start.blade.php -->
-
+@include('header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Running Services</title>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/start.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to my Running Services</h1>
-
-        <div class="grid">
+    <div class="grid">
 
         <div class="tile nutrition" onclick="window.location.href='/search-nutrition-form';">
             <h2>Nutrition</h2>
@@ -57,5 +54,8 @@
         </div>
 
     </div>
+
 </body>
 </html>
+@include('footer')
+

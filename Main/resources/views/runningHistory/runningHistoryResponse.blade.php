@@ -1,3 +1,4 @@
+@include('header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,3 +54,4 @@
 
 </body>
 </html>
+@include('footer')

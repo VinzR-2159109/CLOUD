@@ -1,26 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-h1 {
-    color: #333;
-}
-
 form {
     background-color: #fff;
-    border: 1px solid #ddd;
     padding: 20px;
-    margin: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
     max-width: 400px;
     width: 100%;
     box-sizing: border-box;
@@ -28,7 +11,7 @@ form {
 
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: #555;
 }
 
@@ -42,7 +25,7 @@ input {
 button {
     background-color: #4caf50;
     color: #fff;
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;

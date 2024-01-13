@@ -1,23 +1,28 @@
+@include('header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebSocket Client</title>
+    
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/safetyAlert.css') }}">
+    
+    <title>WebSocket Client</title>
 </head>
 <body>
-    <h1>WebSocket Client</h1>
+    <div>
+        <h1>WebSocket Client</h1>
 
-    <h2>Safety Alert:</h1>
-    <label class="switch">
-        <input type="checkbox" id="safetySwitch" onchange="toggleSafetyAlert()">
-        <span class="slider"></span>
-    </label>
+        <h2>Safety Alert:</h1>
+        <label class="switch">
+            <input type="checkbox" id="safetySwitch" onchange="toggleSafetyAlert()">
+            <span class="slider"></span>
+        </label>
 
-    <h2>Send SOS signal:</h1>
-    <button id="sosButton" onclick="sendSOS()">Send SOS signal</button>
-
+        <h2>Send SOS signal:</h1>
+        <button id="sosButton" onclick="sendSOS()">Send SOS signal</button>
+    </div>
     <script>
         const socket = new WebSocket("ws://localhost:3000");
 
@@ -127,3 +132,4 @@
     </script>
 </body>
 </html>
+@include('footer')
