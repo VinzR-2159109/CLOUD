@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  runningrecords:
+    build:
+      context: ./RunningRecords_soap_C#
+    ports:
+      - "5252:5252"
+
+  running_sensors:
+    build:
+      context: ./RunningSensors_MQTT_Python
+
+  safety_alert:
+    build:
+      context: ./SafetyAlert-Service_websocket_nodeJs
+    ports:
+      - "3000:3000"
+
+  social_running:
+    build:
+      context: ./SocialRunningTracker_GraphQL_Graphene&Python
+    ports:
+      - "5000:5000"
+
+  weather_service:
+    build:
+      context: ./WeatherService_gRPC_C#/weatherService
+    ports:
+      - "5051:5051"
